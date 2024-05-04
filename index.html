@@ -6,9 +6,6 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Accueil</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
   
 
   <!-- Google Fonts -->
@@ -146,7 +143,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="property-grid.html">A propos</a>
+            <a class="nav-link " href="#service">Nos services</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -170,9 +167,9 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Connexion</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item " href="property-single.html">Client</a>
-              <a class="dropdown-item " href="blog-single.html">Technicien</a>
-              <a class="dropdown-item " href="agents-grid.html">Admin</a>
+              <a class="dropdown-item " href="connexion_client.html">Client</a>
+              <a class="dropdown-item " href="connexion_tech.html">Technicien</a>
+              <a class="dropdown-item " href="connexion_admin.html">Admin</a>
             </div>
           </li>
           <li class="nav-item">
@@ -193,7 +190,7 @@
 
     <div class="swiper-wrapper">
 
-      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/slide1.jpg)">
+      <div class="swiper-slide carousel-item-a intro-item bg-image"  style="background-image: url(assets/img/slide1.jpg)">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
           <div class="table-cell">
@@ -206,7 +203,9 @@
                     </h1>
                     <h2 class="intro-title-top">votre partenaire de confiance pour tous vos besoins en services techniques. 
                       <br> Que vous recherchiez un plombier, un électricien, un architecte, un informaticien, un électronicien, un menuisier ou d'autres professionnels qualifiés, notre équipe polyvalente est là pour répondre à toutes vos exigences avec expertise et dévouement.
-                      
+                      <p class="intro-subtitle intro-price">
+                        <a href="property-single.html"><span class="price-a">S'inscrire</span></a>
+                      </p>
                     </h2>
                   </div>
                 </div>
@@ -272,8 +271,8 @@
   <main id="main">
 
 
-    <!-- ======= Latest Properties Section ======= -->
-    <section class="section-property section-t8">
+    <!-- ======= Section Nos services======= -->
+    <section id="service" class="service section-t8">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -317,23 +316,16 @@
                     <div class="card-footer-a">
                       <ul class="card-info d-flex justify-content-around">
                         <li>
-                          <h4 class="card-info-title">Area</h4>
-                          <span>340m
-                            <sup>2</sup>
+                          <h4 class="card-info-title">Techniciens</h4>
+                          <span>5
+                            
                           </span>
                         </li>
                         <li>
                           <h4 class="card-info-title">Beds</h4>
                           <span>2</span>
                         </li>
-                        <li>
-                          <h4 class="card-info-title">Baths</h4>
-                          <span>4</span>
-                        </li>
-                        <li>
-                          <h4 class="card-info-title">Garages</h4>
-                          <span>1</span>
-                        </li>
+                        
                       </ul>
                     </div>
                   </div>
@@ -374,14 +366,7 @@
                           <h4 class="card-info-title">Beds</h4>
                           <span>2</span>
                         </li>
-                        <li>
-                          <h4 class="card-info-title">Baths</h4>
-                          <span>4</span>
-                        </li>
-                        <li>
-                          <h4 class="card-info-title">Garages</h4>
-                          <span>1</span>
-                        </li>
+                        
                       </ul>
                     </div>
                   </div>
@@ -422,14 +407,7 @@
                           <h4 class="card-info-title">Beds</h4>
                           <span>2</span>
                         </li>
-                        <li>
-                          <h4 class="card-info-title">Baths</h4>
-                          <span>4</span>
-                        </li>
-                        <li>
-                          <h4 class="card-info-title">Garages</h4>
-                          <span>1</span>
-                        </li>
+                        
                       </ul>
                     </div>
                   </div>
@@ -470,14 +448,7 @@
                           <h4 class="card-info-title">Beds</h4>
                           <span>2</span>
                         </li>
-                        <li>
-                          <h4 class="card-info-title">Baths</h4>
-                          <span>4</span>
-                        </li>
-                        <li>
-                          <h4 class="card-info-title">Garages</h4>
-                          <span>1</span>
-                        </li>
+                        
                       </ul>
                     </div>
                   </div>
@@ -489,7 +460,7 @@
         <div class="propery-carousel-pagination carousel-pagination"></div>
 
       </div>
-    </section><!-- End Latest Properties Section -->
+    </section><!-- End Latest Nos services Section -->
 
     <!-- ======= Agents Section ======= -->
     <section class="section-agents section-t8">
@@ -699,115 +670,33 @@
           <div class="col-md-12">
             <div class="title-wrap d-flex justify-content-between">
               <div class="title-box">
-                <h2 class="title-a">informations</h2>
-              </div>
-              <div class="title-link">
-                <a href="blog-grid.html">more
-                  <span class="bi bi-chevron-right"></span>
-                </a>
+                <h2 class="title-a">A propos de nous</h2>
               </div>
             </div>
           </div>
         </div>
 
-        <div id="news-carousel" class="swiper">
-          <div class="swiper-wrapper">
+        <div class="row">
+          <div class="col-lg-6">
+              
+              <p class="text-muted">Bienvenue Allô technicien, votre partenaire polyvalent pour tous vos besoins en construction, rénovation, réparation et services techniques. Forts d'une équipe diversifiée de professionnels qualifiés, nous sommes fiers d'offrir une gamme complète de services pour répondre à toutes vos exigences.</p>
+              <p class="text-muted">Que vous ayez besoin d'un maçon pour construire une fondation solide, d'un électricien pour illuminer votre espace, d'un menuisier pour créer des meubles sur mesure, d'un architecte pour concevoir des plans innovants, d'un réparateur d'appareils électroniques pour restaurer vos appareils, d'un chauffeur pour assurer vos déplacements en toute sécurité, ou encore d'un informaticien et d'un informaticien réseau pour gérer votre infrastructure numérique, nous avons les compétences et l'expertise nécessaires pour mener à bien votre projet.</p>
+              <p class="text-muted">Notre engagement envers la qualité, le professionnalisme et la satisfaction du client est au cœur de tout ce que nous faisons. Nous nous efforçons de fournir un service exceptionnel à chaque étape, en veillant à ce que vos besoins et vos attentes soient non seulement rencontrés, mais dépassés.</p>
+          </div>
+          <div class="col-lg-6">
+              <img src="assets/img/apropos.jpg" alt="À propos de nous" class="img-fluid">
+          </div>
+          <div class="col-12">
+            <a href=""><button type="" class="btn btn-success">S'inscrire</button></a>
+          </div>
+      </div>
 
-            <div class="carousel-item-c swiper-slide">
-              <div class="card-box-b card-shadow news-box">
-                <div class="img-box-b">
-                  <img src="assets/img/post-2.jpg" alt="" class="img-b img-fluid">
-                </div>
-                <div class="card-overlay">
-                  <div class="card-header-b">
-                    <div class="card-category-b">
-                      <a href="#" class="category-b">House</a>
-                    </div>
-                    <div class="card-title-b">
-                      <h2 class="title-2">
-                        <a href="blog-single.html">House is comming
-                          <br> new</a>
-                      </h2>
-                    </div>
-                    <div class="card-date">
-                      <span class="date-b">18 Sep. 2017</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End carousel item -->
+      
 
-            <div class="carousel-item-c swiper-slide">
-              <div class="card-box-b card-shadow news-box">
-                <div class="img-box-b">
-                  <img src="assets/img/post-5.jpg" alt="" class="img-b img-fluid">
-                </div>
-                <div class="card-overlay">
-                  <div class="card-header-b">
-                    <div class="card-category-b">
-                      <a href="#" class="category-b">Travel</a>
-                    </div>
-                    <div class="card-title-b">
-                      <h2 class="title-2">
-                        <a href="blog-single.html">Travel is comming
-                          <br> new</a>
-                      </h2>
-                    </div>
-                    <div class="card-date">
-                      <span class="date-b">18 Sep. 2017</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End carousel item -->
 
-            <div class="carousel-item-c swiper-slide">
-              <div class="card-box-b card-shadow news-box">
-                <div class="img-box-b">
-                  <img src="assets/img/post-7.jpg" alt="" class="img-b img-fluid">
-                </div>
-                <div class="card-overlay">
-                  <div class="card-header-b">
-                    <div class="card-category-b">
-                      <a href="#" class="category-b">Park</a>
-                    </div>
-                    <div class="card-title-b">
-                      <h2 class="title-2">
-                        <a href="blog-single.html">Park is comming
-                          <br> new</a>
-                      </h2>
-                    </div>
-                    <div class="card-date">
-                      <span class="date-b">18 Sep. 2017</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End carousel item -->
 
-            <div class="carousel-item-c swiper-slide">
-              <div class="card-box-b card-shadow news-box">
-                <div class="img-box-b">
-                  <img src="assets/img/post-3.jpg" alt="" class="img-b img-fluid">
-                </div>
-                <div class="card-overlay">
-                  <div class="card-header-b">
-                    <div class="card-category-b">
-                      <a href="#" class="category-b">Travel</a>
-                    </div>
-                    <div class="card-title-b">
-                      <h2 class="title-2">
-                        <a href="#">Travel is comming
-                          <br> new</a>
-                      </h2>
-                    </div>
-                    <div class="card-date">
-                      <span class="date-b">18 Sep. 2017</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End carousel item -->
+
+
 
           </div>
         </div>
@@ -837,7 +726,7 @@
                 <div class="row">
                   <div class="col-sm-12 col-md-6">
                     <div class="testimonial-img">
-                      <img src="assets/img/testimonial-1.jpg" alt="" class="img-fluid">
+                      <img src="assets/img/temoin1.jpg" alt="" class="img-fluid">
                     </div>
                   </div>
                   <div class="col-sm-12 col-md-6">
@@ -846,14 +735,13 @@
                     </div>
                     <div class="testimonials-content">
                       <p class="testimonial-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
-                        debitis hic ber quibusdam
-                        voluptatibus officia expedita corpori.
+                        Service professionnel ! Le plombier de Allo technicien a réparé notre fuite 
+                        d'eau rapidement et à un prix raisonnable. Nous les recommandons sans hésiter.
                       </p>
                     </div>
                     <div class="testimonial-author-box">
-                      <img src="assets/img/mini-testimonial-1.jpg" alt="" class="testimonial-avatar">
-                      <h5 class="testimonial-author">Albert & Erika</h5>
+                      <img src="assets/img/temoin1.jpg" alt="" class="testimonial-avatar">
+                      <h5 class="testimonial-author">Patrick & Alberta</h5>
                     </div>
                   </div>
                 </div>
@@ -865,7 +753,7 @@
                 <div class="row">
                   <div class="col-sm-12 col-md-6">
                     <div class="testimonial-img">
-                      <img src="assets/img/testimonial-2.jpg" alt="" class="img-fluid">
+                      <img src="assets/img/temoin2.jpg" alt="" class="img-fluid">
                     </div>
                   </div>
                   <div class="col-sm-12 col-md-6">
@@ -874,14 +762,13 @@
                     </div>
                     <div class="testimonials-content">
                       <p class="testimonial-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
-                        debitis hic ber quibusdam
-                        voluptatibus officia expedita corpori.
+                        Intervention rapide ! Le plombier de [Votre Entreprise] est venu à notre secours 
+                        pour une fuite d'eau. Service rapide, efficace et professionnel.
                       </p>
                     </div>
                     <div class="testimonial-author-box">
-                      <img src="assets/img/mini-testimonial-2.jpg" alt="" class="testimonial-avatar">
-                      <h5 class="testimonial-author">Pablo & Emma</h5>
+                      <img src="assets/img/temoin2.jpg" alt="" class="testimonial-avatar">
+                      <h5 class="testimonial-author">Erick & Françoise</h5>
                     </div>
                   </div>
                 </div>
@@ -897,14 +784,58 @@
 
   </main><!-- End #main -->
 
+
+
+
+  <style>
+    /* Styles CSS personnalisés */
+    .partner-logos {
+        padding: 50px 0; /* Espace autour de la section */
+        background-color: #f8f9fa; /* Couleur de fond */
+    }
+    .partner-logo {
+        max-width: 150px; /* Largeur maximale des logos */
+        margin: 20px; /* Espacement entre les logos */
+    }
+</style>
+<!-- Section des logos des partenaires -->
+<section class="partner-logos">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="title-wrap d-flex justify-content-between">
+          <div class="title-box">
+            <h2 class="title-a">Nos partenaires</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="row justify-content-center">
+          <div class="col-md-4">
+              <img src="assets/img/2iememaison.jpg" alt="Logo partenaire 1" class="img-fluid partner-logo">
+          </div>
+          <div class="col-md-4 mt-4">
+              <img src="assets/img/charo_tech.jpg" alt="Logo partenaire 2" class="img-fluid partner-logo">
+          </div>
+          <div class="col-md-4">
+              <img src="assets/img/flavy.jpg" alt="Logo partenaire 3" class="img-fluid partner-logo">
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+
+
   <!-- ======= Footer ======= -->
   <section class="section-footer">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-3">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">Allô technicien</h3>
+              <a class="navbar-brand text-brand text-warning" href="index.html">Allô <span class="color-b">technicien</span></a>
             </div>
             <div class="w-body-a">
               <p class="w-text-a color-text-a">
@@ -924,7 +855,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 section-md-t3">
+        <div class="col-sm-12 col-md-3 section-md-t3">
           <div class="widget-a">
             <div class="w-header-a">
               <h3 class="w-title-a text-brand">L'entreprise</h3>
@@ -933,16 +864,16 @@
               <div class="w-body-a">
                 <ul class="list-unstyled">
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Site Map</a>
+                    <i class="bi bi-chevron-right"></i> <a href="#">Localisation</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Legal</a>
+                    <i class="bi bi-chevron-right"></i> <a href="#">La 2ième maison</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Agent Admin</a>
+                    <i class="bi bi-chevron-right"></i> <a href="#">Charolite Technologie</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Careers</a>
+                    <i class="bi bi-chevron-right"></i> <a href="#">flavy</a>
                   </li>
                   <li class="item-list-a">
                     <i class="bi bi-chevron-right"></i> <a href="#">Affiliate</a>
@@ -955,33 +886,71 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 section-md-t3">
-          <div class="widget-a">
-            <div class="w-header-a">
-              <h3 class="w-title-a text-brand">International sites</h3>
-            </div>
-            <div class="w-body-a">
-              <ul class="list-unstyled">
-                <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Venezuela</a>
-                </li>
-                <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">China</a>
-                </li>
-                <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Hong Kong</a>
-                </li>
-                <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Argentina</a>
-                </li>
-                <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Singapore</a>
-                </li>
-                <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Philippines</a>
-                </li>
-              </ul>
-            </div>
+        <div class="col-sm-12 col-md-6 section-md-t3">
+          <div class="container">
+     
+            <section class="section register d-flex flex-column align-items-center justify-content-center py-4">
+              <div class="container ">
+                <div class="row justify-content-center ">
+                 
+                 <div class="card shadow-lg p-3 mb-5 bg-white border-0">
+      
+                   <div class="card-body">
+   
+                     <div class="pt-0 pb-1">
+                       <h5 class="card-title text-center pb-0 fs-4 color-b">Create an Account</h5>
+                       <p class="text-center small">Entrez vos informations pour créer votre compte</p>
+                     </div>
+   
+                     <form class="row g-3 p-3">
+                      <div class="col-md-6">
+                          <label for="validationDefault01" class="form-label">Nom</label>
+                          <input type="text" class="form-control border-2" id="validationDefault01" value="" required>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="validationDefault02" class="form-label">Prénom(s)</label>
+                          <input type="text" class="form-control border-2"  value="" required>
+                        </div>
+            
+                        <div class="col-md-6">
+                          <label for="inputCity" class="form-label">Nom d'utilisateur</label>
+                          <input type="text" class="form-control border-2" >
+                        </div>
+            
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label">Mot de passe</label>
+                          <input type="password" class="form-control border-2" id="inputPassword4">
+                        </div>
+                        
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Numero de téléphone</label>
+                        <input type="number" class="form-control border-2" id="inputEmail4" required>
+                      </div>
+                      
+                      
+                      <div class="col-md-6">
+                        <label for="validationDefaultUsername" class="form-label">E-mail</label>
+                        <div class="input-group">
+                          <span class="input-group-text border-2" id="inputGroupPrepend2">@</span>
+                          <input type="email" class="form-control border-2"   aria-describedby="inputGroupPrepend2" required>
+                        </div>
+                      </div>
+            
+                      
+                      <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-success">S'inscrire</button>
+                      </div>
+                    </form>
+   
+                   </div>
+ 
+      
+                  </div>
+                </div>
+              </div>
+      
+            </section>
+      
           </div>
         </div>
       </div>
@@ -994,16 +963,13 @@
           <nav class="nav-footer">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="#">Home</a>
+                <a href="#">Accueil</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">About</a>
+                <a href="#">Nos services</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Property</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Blog</a>
+                <a href="#">Nos techniciens</a>
               </li>
               <li class="list-inline-item">
                 <a href="#">Contact</a>
@@ -1040,15 +1006,7 @@
               <span class="color-a">Charolite Technologie</span> All Rights Reserved.
             </p>
           </div>
-          <div class="credits">
-            <!--
-            All the links in the footer should remain intact.
-            You can delete the links only if you purchased the pro version.
-            Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=EstateAgency
-          -->
-            Designed by <a href="https://bootstrapmade.com/">Bathe</a>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -1064,6 +1022,11 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+  <!--les fichiers JavaScript de Bootstrap (optionnel) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
 
 </body>
 
